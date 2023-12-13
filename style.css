@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    color: #e2e2f8;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    background: #e6e6f3;
+}
+
+.top-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 5%;
+}
+
+.top-bar .social-media{
+    background: #e6e6f3;
+    border-radius: 15px;
+
+}
+
+.top-bar .social-media ul li{
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.top-bar .social-media ul li a{
+    color: #1b1729;
+}
+
+.top-bar .social-media ul li:hover{
+    transform: translateY(-5px);
+}
+
+.top-bar .social-media ul li:hover a{
+    color: #6e78a5;
+}
+
+.main-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.home-logo{
+    position: fixed;
+    margin-top: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+
+}
+
+.main-logo{
+    position: absolute;
+    width: 160px;
+}
+
+.segment{
+    position: absolute;
+    display: block;
+    align-items: center;
+}
+
+.segment1{
+    width: 120px;
+    height: 120px;
+    border: solid 4px #d47636;
+    border-radius: 50%;
+
+}
+
+.segment2{
+    width: 160px;
+    height: 160px;
+    border: solid 2px #c6aed2;
+    border-radius: 50%;
+
+}
+
+.segment3{
+    width: 180px;
+    height: 180px;
+    border: solid 3px #1b1729;
+    border-radius: 50%;
+
+}
+
+.segment4{
+    width: 200px;
+    height: 200px;
+    border: solid 6px #80c3b3;
+    border-radius: 50%;
+
+}
+
+.segment5{
+    width: 240px;
+    height: 240px;
+    border: solid 4px #d47636;
+    border-radius: 50%;
+
+}
+
+.segment6{
+    width: 260px;
+    height: 260px;
+    border: solid 3px #1b1729;
+    border-radius: 50%;
+
+}
+
+.home-text{
+    font-size: 20px;
+    color: #1b1729;
+    margin-top: 70vh;
+    position: fixed;
+}
+
+.home-text h1{
+    font-size: 60px;
+    color:#1b1729;
+}
+
+.text-bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
